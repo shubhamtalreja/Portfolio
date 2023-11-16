@@ -11,7 +11,7 @@ const Project = ({ projects }) => {
     ]
     return (
         <>
-            <div ref={projects} className='bg-zinc-800 rounded-xl container mx-auto p-5 mt-48'>
+            <div ref={projects} className='bg-zinc-800 rounded-xl container mx-auto p-5 mt-48 opacity-70'>
                 <div className='flex justify-center align-center text-gray-300 text-4xl'>
                     Projects
                 </div>

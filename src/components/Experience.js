@@ -4,7 +4,7 @@ const Experience = ({ about }) => {
     return (
         <>
             {/* <div className='h-screen'> */}
-            <div ref={about} className=' bg-zinc-800 rounded-xl container mx-auto p-5'>
+            <div ref={about} className=' bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70'>
                 <div className='flex justify-center align-center text-white text-4xl'>
                     About
                 </div>

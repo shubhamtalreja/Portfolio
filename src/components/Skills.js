@@ -15,7 +15,7 @@ const Skills = ({ skills }) => {
     ];
     return (
         <>
-            <div ref={skills} className=' bg-zinc-800 rounded-xl container mx-auto p-5 mt-28'>
+            <div ref={skills} className=' bg-zinc-800 rounded-xl container mx-auto p-5 mt-28 opacity-70'>
                 <div className='flex justify-center align-center text-gray-300 text-4xl'
                 >Skills
                 </div>

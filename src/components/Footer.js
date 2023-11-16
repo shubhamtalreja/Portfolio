@@ -4,7 +4,7 @@ import userImage from '../assets/img/shubham.jpg'
 const Footer = () => {
     return (
         <>
-            <div className=' bg-zinc-800 p-5 mt-20 '>
+            <div className=' bg-zinc-800 p-5 mt-20 opacity-70'>
                 <div className='flex justify-center h-24'>
                     <img src={userImage} />
                 </div>
