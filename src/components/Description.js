@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import devImage from '../assets/img/shubham.jpg'
+import devImage from '../assets/img/shubham.png'
 const Description = () => {
     const words = ["Frontend Developer", "Software Developer", "Web Developer", "Web Designer"];
     let i = 0;

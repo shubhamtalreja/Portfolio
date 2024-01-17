@@ -1,12 +1,21 @@
 import React from 'react'
 import projectImage1 from '../assets/img/project1.PNG'
+import projectImage2 from '../assets/img/project2.PNG'
+
 
 const Project = ({ projects }) => {
     const projectsArray = [
         {
             image: projectImage1,
             title: 'Portfolio',
-            description: 'Developer Portfolio'
+            description: 'Developer Portfolio',
+            path:'https://github.com/shubhamtalreja/Portfolio'
+        },
+        {
+            image: projectImage2,
+            title: 'Ecommerce',
+            description: 'Ecommerce Website',
+            path:'https://github.com/shubhamtalreja/E-commerce'
         }
     ]
     return (
@@ -33,7 +42,7 @@ const Project = ({ projects }) => {
                                         </button>
                                         <button className='w-32 text-center bg-slate-200 p-2 text-lg text-slate-950 font-semibold
                              rounded-xl bg-gradient-to-r from-slate-100 to-slate-300 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300'
-                                            onClick={() => { window.open("https://github.com/shubhamtalreja/Portfolio", "_blank") }}>
+                                            onClick={() => { window.open(item.path, "_blank") }}>
                                             Source code
                                         </button>
                                     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import userImage from '../assets/img/shubham.jpg'
+import userImage from '../assets/img/shubham.png'
 
 const Footer = () => {
     return (
