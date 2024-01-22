@@ -8,10 +8,13 @@ const Skills = ({ skills }) => {
         { frontEnd: "CSS" },
         { frontEnd: "JavaScript" },
         { frontEnd: "ReactJs" },
+        { frontEnd: "BootStrap" },
         { frontEnd: "Tailwind CSS" },
         { otherSkill: "Git" },
+        { otherSkill: "AWS" },
+        { otherSkill: "Figma" },
         { otherSkill: "Jira" },
-        { otherSkill: "Postman" },
+        { otherSkill: "Postman" }
     ];
     return (
         <>
