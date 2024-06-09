@@ -9,7 +9,7 @@ const Experience = ({ about }) => {
                     About
                 </div>
                 <div className='text-gray-100 p-5'>
-                    <div className='text-xl'>"I am Shubham Talreja a Results-oriented Software Developer with over 1.5 years of hands-on experience in Frontend Development using ReactJS. Proven track record of delivering high-quality, responsive, and user-friendly web applications. Skilled in translating design concepts into functional and efficient code.
+                    <div className='text-xl'>"I am Shubham Talreja a Results-oriented Software Developer with over 1.8 years of hands-on experience in Software Development using ReactJS. Proven track record of delivering high-quality, responsive, and user-friendly web applications. Skilled in translating design concepts into functional and efficient code.
                         ager to contribute technical expertise and passion for innovation to a dynamic development team.."</div>
                 </div>
                 <div className='flex justify-center align-center text-white text-4xl'>
