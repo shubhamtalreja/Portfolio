@@ -14,11 +14,17 @@ const Skills = ({ skills }) => {
         { backend: "Express" },
         { backend: "MongoDB" },
         { otherSkill: "Git" },
-        { otherSkill: "AWS" },
+        { otherSkill: "AWS Amplify" },
+        { otherSkill: "AWS Lambda" },
+        { otherSkill: "AWS S3" },
         { otherSkill: "Figma" },
         { otherSkill: "Jira" },
         { otherSkill: "Postman" },
         { otherSkill: "Jenkins" },
+        { otherSkill: "Cypress" },
+        { otherSkill: "Splunk" },
+        { otherSkill: "FullStory" },
+
     ];
     return (
         <div ref={skills} className='h-screen bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70 mt-20 overflow-hidden'>
@@ -57,7 +63,7 @@ const Skills = ({ skills }) => {
                 </ul>
             </div>
             <div className='text-white font-semibold'>
-                <div>Others</div>
+                <div>Tools</div>
                 <ul>
                     {Lang.filter(item => item.otherSkill).map((item, idx) => (
                         <li key={idx} className='border-2 border-slate-700 bg-slate-300 font-bold text-slate-800 w-fit px-2 py-1 rounded-lg my-1 text-sm'>
