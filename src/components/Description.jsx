@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import devImage from '../assets/img/shubham.png'
 const Description = () => {
-    const words = ["Frontend Developer", "Software Developer", "Web Developer", "Web Designer"];
+    const words = ["Frontend Developer", "Software Developer", "Web Developer", "FullStack Developer"];
     let i = 0;
     let timer;
 
