@@ -11,9 +11,15 @@ Welcome to my personal developer portfolio! This project showcases my skills, ex
 - **Contact**: Quick links to connect
 
 ## 🖼️ Screenshots
-| Home | Skills | Projects |
-|------|--------|---------|
-| ![Home](src/assets/img/portfolio.png) | ![Skills](src/assets/img/skills.png) | ![Project 1](src/assets/img/projects.PNG) |
+
+### Home Section
+![Home](src/assets/img/portfolio.png)
+
+### Skills Section
+![Skills](src/assets/img/skills.png)
+
+### Projects Section
+![Project 1](src/assets/img/projects.PNG)
 
 ## 🛠️ Tech Stack
 - React
