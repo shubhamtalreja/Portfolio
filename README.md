@@ -13,13 +13,13 @@ Welcome to my personal developer portfolio! This project showcases my skills, ex
 ## 🖼️ Screenshots
 
 ### Home Section
-![Home](src/assets/img/portfolio.png)
+![Home](src/assets/img/portfolio.PNG)
 
 ### Skills Section
 ![Skills](src/assets/img/skills.png)
 
 ### Projects Section
-![Project 1](src/assets/img/projects.PNG)
+![Project 1](src/assets/img/projects.png)
 
 ## 🛠️ Tech Stack
 - React
