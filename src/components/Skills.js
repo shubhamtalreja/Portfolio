@@ -20,7 +20,7 @@ const Skills = ({ skills }) => {
         ]
     };
     return (
-        <div ref={skills} className=' bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70 mt-20 overflow-hidden'>
+        <div ref={skills} className='h-screen bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70 mt-20 overflow-hidden'>
         <div className='flex justify-center items-center text-gray-300 text-4xl mb-8'>
             Skills
         </div>
