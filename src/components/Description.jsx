@@ -54,7 +54,7 @@ const Description = () => {
                     <div className='p-1'>
                         <button className='text-white p-2 rounded-xl bg-gradient-to-r from-slate-400 to-slate-500 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300 font-semibold w-10'
                             onClick={() => { window.open('https://github.com/shubhamtalreja', '_blank') }}>
-                            <i className='fa fa-github'> </i></button>
+                            <i className="fab fa-github fa-lg"></i></button>
                         <button className='text-white p-2 rounded-xl bg-gradient-to-r from-slate-400 to-slate-500 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300 font-semibold w-10 ml-5'
                             onClick={() => { window.open('mailto:shubhamtalreja2@gmail.com', '_blank') }}>
                             <i className='fa fa-envelope'> </i></button>
