@@ -1,8 +1,8 @@
 import React from 'react'
 import portfolioImage from '../assets/img/portfolio.PNG'
 import itSupportImage from '../assets/img/it-support.PNG'
-import bookingPageImage from '../assets/img/booking-page.PNG'
-import privateChatImage from '../assets/img/private-chat.PNG'
+import bookingPageImage from '../assets/img/booking-page.png'
+import privateChatImage from '../assets/img/private-chat.png'
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import {
     Carousel,
