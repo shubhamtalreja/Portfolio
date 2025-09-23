@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import devImage from '../assets/img/shubham.png'
+import devImage from '../assets/img/shubham (2).png'
 const Description = () => {
     const words = ["Frontend Developer", "Software Developer", "Web Developer", "FullStack Developer"];
     let i = 0;
     let timer;
 
-    function typeWriter() {
+    const typeWriter = () => {
         const heading = document.getElementById("typewriter");
         const word = words[i];
         const speed = 250;
@@ -19,7 +19,7 @@ const Description = () => {
         }
     }
 
-    function deleteText() {
+    const deleteText = () => {
         const heading = document.getElementById("typewriter");
         const word = words[i];
         const speed = 75;
@@ -59,12 +59,12 @@ const Description = () => {
                             onClick={() => { window.open('mailto:shubhamtalreja2@gmail.com', '_blank') }}>
                             <i className='fa fa-envelope'> </i></button>
                         <button className='text-white p-2 rounded-xl bg-gradient-to-r from-slate-400 to-slate-500 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300 font-semibold ml-5'
-                         onClick={() => { window.open('https://drive.google.com/file/d/1565LVLr_-FDPKU9k60zHJ0c6c27ZioAD/view?usp=sharing', '_blank') }}>
+                            onClick={() => { window.open('https://drive.google.com/file/d/1565LVLr_-FDPKU9k60zHJ0c6c27ZioAD/view?usp=sharing', '_blank') }}>
                             Download CV </button>
                     </div>
                 </div>
-                <div className='w-full flex justify-center animate-pulse h-full'>
-                    <img src={devImage} />
+                <div className='w-full flex justify-center animate-pulse h-[400px]'>
+                    <img src={devImage} className="rounded-full w-[400px] h-[400px] object-cover" />
                 </div>
             </div>
         </>
