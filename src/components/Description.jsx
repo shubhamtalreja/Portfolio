@@ -29,7 +29,7 @@ const Description = () => {
             timer = setTimeout(deleteText, speed);
         } else {
             i = (i + 1) % words.length;
-            setTimeout(typeWriter, speed * 2);
+            setTimeout(typeWriter, speed * 5);
         }
     }
 
@@ -43,12 +43,12 @@ const Description = () => {
 
                     <div className='text-gray-100 p-1'>
                         <div className='font-bold text-4xl'>
-                            I'm &nbsp;
-                            <div className='inline-flex font-bold' id='typewriter'></div>
+                            <div>I'm &nbsp;</div>
+                            <div className='inline-block min-h-[80px]' id='typewriter'></div>
                         </div>
                         <div className='text-gray-200 text-xl'>
-                            Software Engineering graduate and a Coding Enthusiast with strong technical skills anchored on extensive engineering coursework
-                            and a special focus on Frontend Web Development. Let's create something extraordinary together!
+                            Full Stack Developer and coding enthusiast with strong technical skills in building scalable web applications.
+                            Experienced in both frontend and backend development, with a passion for creating efficient, user-friendly solutions. Let’s build something extraordinary together!
                         </div>
                     </div>
                     <div className='p-1'>
