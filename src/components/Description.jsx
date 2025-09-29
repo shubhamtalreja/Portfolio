@@ -59,7 +59,7 @@ const Description = () => {
                             onClick={() => { window.open('mailto:shubhamtalreja2@gmail.com', '_blank') }}>
                             <i className='fa fa-envelope'> </i></button>
                         <button className='text-white p-2 rounded-xl bg-gradient-to-r from-slate-400 to-slate-500 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300 font-semibold ml-5'
-                            onClick={() => { window.open('https://drive.google.com/file/d/1565LVLr_-FDPKU9k60zHJ0c6c27ZioAD/view?usp=sharing', '_blank') }}>
+                            onClick={() => { window.open('https://drive.google.com/file/d/1PiO1kSmAIjv_YIESu3ONoUBtWnFAvGkJ/view?usp=sharing', '_blank') }}>
                             Download CV </button>
                     </div>
                 </div>
