@@ -38,15 +38,15 @@ const Description = () => {
     }, [])
     return (
         <>
-            <div className='flex flex-col md:flex-row items-center h-screen container mx-auto p-5'>
-                <div className='w-full'>
+            <div className='flex flex-col md:flex-row items-center min-h-screen md:h-screen container mx-auto p-5'>
+                <div className='w-full mb-6 md:mb-0'>
 
                     <div className='text-gray-100 p-1'>
-                        <div className='font-bold text-4xl'>
+                        <div className='font-bold text-3xl md:text-4xl'>
                             <div>I'm &nbsp;</div>
-                            <div className='inline-block min-h-[80px]' id='typewriter'></div>
+                            <div className='inline-block min-h-[60px] md:min-h-[80px]' id='typewriter'></div>
                         </div>
-                        <div className='text-gray-200 text-xl'>
+                        <div className='text-gray-200 text-lg md:text-xl'>
                             Full Stack Developer and coding enthusiast with strong technical skills in building scalable web applications.
                             Experienced in both frontend and backend development, with a passion for creating efficient, user-friendly solutions. Let’s build something extraordinary together!
                         </div>
@@ -63,8 +63,8 @@ const Description = () => {
                             Download CV </button>
                     </div>
                 </div>
-                <div className='w-full flex justify-center animate-pulse h-[400px]'>
-                    <img src={devImage} className="rounded-full w-[400px] h-[400px] object-cover" />
+                <div className='w-full flex justify-center animate-pulse'>
+                    <img src={devImage} className="rounded-full w-64 h-64 md:w-[400px] md:h-[400px] object-cover" />
                 </div>
             </div>
         </>

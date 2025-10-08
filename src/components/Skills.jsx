@@ -106,8 +106,8 @@ const Skills = ({ skills }) => {
           <CarouselContent className='-ml-1'>
             {skillIcons.map((item, idx) => (
               <CarouselItem key={idx} className="pl-1 md:basis-1/2 lg:basis-1/5">
-                <Card className="bg-zinc-900 flex flex-col items-center p-6 rounded-xl shadow-lg">
-                  <CardContent>
+                <Card className="bg-zinc-900 flex flex-col items-center p-6 rounded-xl shadow-lg justify-center h-96">
+                  <CardContent className="flex flex-col items-center h-full justify-center">
                     <div className="flex flex-col items-center">
                       {item.icon}
                       <span className="mt-2 text-gray-200 text-lg">{item.name}</span>
