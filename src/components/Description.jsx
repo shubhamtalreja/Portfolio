@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import devImage from '../assets/img/shubham.png'
-const Description = () => {
+const Description = ({ home }) => {
     const words = ["Frontend Developer", "Software Developer", "Web Developer", "FullStack Developer"];
     let i = 0;
     let timer;
@@ -38,7 +38,7 @@ const Description = () => {
     }, [])
     return (
         <>
-            <div className='flex flex-col md:flex-row items-center min-h-screen md:h-screen container mx-auto p-5'>
+            <div ref={home} className='flex flex-col md:flex-row items-center min-h-screen md:h-screen container mx-auto p-5'>
                 <div className='w-full mb-6 md:mb-0'>
 
                     <div className='text-gray-100 p-1'>
@@ -60,7 +60,8 @@ const Description = () => {
                             <i className='fa fa-envelope'> </i></button>
                         <button className='text-white p-2 rounded-xl bg-gradient-to-r from-slate-400 to-slate-500 hover:from-indigo-500 hover:to-purple-500 focus:outline-none focus:ring focus:ring-violet-300 font-semibold ml-5'
                             onClick={() => { window.open('https://drive.google.com/file/d/1PiO1kSmAIjv_YIESu3ONoUBtWnFAvGkJ/view?usp=sharing', '_blank') }}>
-                            Download CV </button>
+                            CV
+                        </button>
                     </div>
                 </div>
                 <div className='w-full flex justify-center animate-pulse'>

@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="container mx-auto p-5 flex justify-end items-center font-semibold relative">
+      <div className="mx-auto p-5 flex justify-end items-center font-semibold relative sticky top-0 bg-zinc-900 bg-opacity-5 z-50 h-20">
         {/* Desktop/Large-screen menu */}
         <ul className="hidden sm:flex justify-end text-white gap-[4vw] p-5">
           {menuItems.map(({ label, ref }) => (
@@ -85,7 +85,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <Description />
+      <Description home={home} />
       <Experience about={about} />
       <Skills skills={skills} />
       <Project projects={projects} />
