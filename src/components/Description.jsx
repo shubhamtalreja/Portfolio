@@ -1,54 +1,22 @@
 import React, { useEffect } from 'react'
 import devImage from '../assets/img/shubham.png'
 const Description = ({ home }) => {
-    const words = ["Frontend Developer", "Software Developer", "Web Developer", "FullStack Developer"];
-    let i = 0;
-    let timer;
-
-    const typeWriter = () => {
-        const heading = document.getElementById("typewriter");
-        const word = words[i];
-        const speed = 250;
-
-        if (heading.textContent.length < word.length) {
-            heading.textContent += word.charAt(heading.textContent.length);
-            timer = setTimeout(typeWriter, speed);
-        } else {
-            clearTimeout(timer);
-            setTimeout(deleteText, speed * 2);
-        }
-    }
-
-    const deleteText = () => {
-        const heading = document.getElementById("typewriter");
-        const word = words[i];
-        const speed = 75;
-
-        if (heading.textContent.length > 0) {
-            heading.textContent = word.substring(0, heading.textContent.length - 1);
-            timer = setTimeout(deleteText, speed);
-        } else {
-            i = (i + 1) % words.length;
-            setTimeout(typeWriter, speed * 5);
-        }
-    }
-
-    useEffect(() => {
-        typeWriter();
-    }, [])
     return (
         <>
             <div ref={home} className='flex flex-col md:flex-row items-center min-h-screen md:h-screen container mx-auto p-5'>
                 <div className='w-full mb-6 md:mb-0'>
 
                     <div className='text-gray-100 p-1'>
-                        <div className='font-bold text-3xl md:text-4xl'>
-                            <div>I'm &nbsp;</div>
-                            <div className='inline-block min-h-[60px] md:min-h-[80px]' id='typewriter'></div>
+                        <div className='font-bold text-3xl md:text-5xl leading-tight'>
+                            Hi, I'm <span className='text-blue-400'>Shubham Talreja</span>
                         </div>
-                        <div className='text-gray-200 text-lg md:text-xl'>
-                            Full Stack Developer and coding enthusiast with strong technical skills in building scalable web applications.
-                            Experienced in both frontend and backend development, with a passion for creating efficient, user-friendly solutions. Let’s build something extraordinary together!
+                        <div className='text-xl md:text-2xl text-gray-300 mt-2 font-medium'>
+                            Full-Stack Developer | GenAI Developer
+                        </div>
+                        <div className='text-gray-200 text-lg md:text-xl mt-5 leading-relaxed max-w-3xl'>
+                            Full-Stack Developer with 4 years of experience building scalable web applications using React.js, Node.js, Python, and AWS serverless architecture. 
+                            Experienced in developing AI-powered applications using LLMs, RAG pipelines, AWS Bedrock, and modern cloud technologies to deliver high-performance 
+                            and user-focused solutions.
                         </div>
                     </div>
                     <div className='p-1'>

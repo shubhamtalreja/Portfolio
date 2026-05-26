@@ -27,7 +27,7 @@ const Navbar = () => {
   const menuItems = [
     { label: 'Home', ref: home },
     { label: 'Skills', ref: skills },
-    { label: 'About', ref: about },
+    { label: 'Experience', ref: about },
     { label: 'Projects', ref: projects },
   ]
 

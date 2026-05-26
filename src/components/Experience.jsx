@@ -3,38 +3,98 @@ import React from 'react'
 const Experience = ({ about }) => {
     return (
         <>
-            {/* <div className='h-screen'> */}
-            <div ref={about} className=' bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70 relative z-10'>
-                <div className='flex justify-center align-center text-white text-4xl'>
-                    About
-                </div>
-                <div className='text-gray-100 p-5'>
-                    <div className='text-xl'>I am Shubham Talreja, a Fullstack Developer with over 3 years of experience building web applications using the MERN stack (MongoDB, Express.js, ReactJS, and Node.js).
-                        I create responsive, user-friendly solutions and enjoy turning ideas into efficient code for modern development teams.</div>
-                </div>
+            <div ref={about} className='bg-zinc-800 rounded-xl container mx-auto p-5 opacity-70 relative z-10'>
+
                 <div className='flex justify-center align-center text-white text-4xl'>
                     Experience
                 </div>
+
                 <div className='text-gray-100 p-5'>
-                    <div className='font-semibold text-xl'>Wittybrains Software Technologies Pvt. Ltd.</div>
-                    <div className='text-sm'>Sept-2022 - Present</div>
-                    <ul className='list-disc text-xl'>
-                        <li> Delivered scalable web applications in the AI and Payment domains, achieving up to 95% efficiency using modern technologies. </li>
-                        <li> Built an internal AI chatbot frontend to improve communication within the organization, featuring chat functionality, file sharing, and an insights dashboard with permission-based access for tracking user activity, feedback, and ratings. Integrated Jira for handling negative feedback, improving issue resolution efficiency by 95%. </li>
-                        <li> Developed and deployed Lambda functions in Node.js and Python to automate backend operations for chatbot and file management, enhancing workflow reliability. </li>
-                        <li> Implemented a file management module within the chatbot’s insights dashboard, accessible only to admins. Enabled AWS S3 CRUD operations and file previews, achieving 92% efficiency in file handling processes. </li>
-                        <li> Integrated a Capex Tracker module for logging working hours by project, generating detailed reports and allowing data exports. Enabled administrators to manage project lists, improving productivity by 94%. </li>
-                        <li> Created a user-friendly UI for a payment provider platform, supporting seamless transactions such as custom date range filters, bank transfers, scheduled payments, and autopayments enhancing client reach and operational efficiency by 93%. </li>
-                        <li> Managed end-to-end deployment processes on AWS Amplify, ensuring smooth performance and achieving 94% efficiency in deployment workflows, as part of the chatbot UI project. </li>
-                        <li> Implemented Splunk Real User Monitoring (RUM) in both the chatbot and payment UIs to monitor UI and API errors, ensuring efficient troubleshooting and performance optimization. </li>
-                        <li> Recently integrated FullStory UI monitoring into the AI chatbot to enhance user behavior tracking and performance issue identification. </li>
-                        <li> Used Cypress framework for automation testing, automating UI and API tests to ensure consistent quality and performance across the application. </li>
-                        <li> Collaborated closely with designers and product managers to define project requirements, contributing to 92% efficiency in meeting project timelines. </li>
-                        <li> Consistently committed high-quality code, maintaining project integrity and ensuring timely delivery. </li>
-                    </ul>
+                    <div className='font-semibold text-xl'>
+                        Wittybrains Software Technologies Pvt. Ltd.
+                    </div>
+
+                    <div className='text-sm mb-4'>
+                        September 2022 - Present
+                    </div>
+
+                    <div className='mb-8'>
+                        <div className='text-2xl font-semibold mb-2 text-white'>
+                            AI Chatbot Platform
+                        </div>
+
+                        <ul className='list-disc text-lg pl-5 space-y-2'>
+                            <li>
+                                Developed an AI-powered chatbot platform enabling organization users to query internal knowledge directly from a web dashboard using ReactJS and AWS serverless architecture.
+                            </li>
+
+                            <li>
+                                Built the chatbot interface with real-time messaging, chat history, file sharing, and a role-based insights dashboard to monitor usage metrics and user feedback.
+                            </li>
+
+                            <li>
+                                Integrated Claude LLM models via AWS Bedrock and implemented a Retrieval-Augmented Generation (RAG) pipeline to generate contextual responses, improving response accuracy and relevance by approximately 70%.
+                            </li>
+
+                            <li>
+                                Implemented streaming responses using AWS Lambda (NodeJs) and integrated an MCP server to enable tool-based integrations, reducing response latency and improving system responsiveness by around 60%.
+                            </li>
+
+                            <li>
+                                Integrated Jira APIs to automatically create support tickets from negative feedback and implemented monitoring using Splunk RUM and FullStory, improving issue tracking and debugging efficiency by nearly 80%.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='mb-8'>
+                        <div className='text-2xl font-semibold mb-2 text-white'>
+                            Payment Integration Platform
+                        </div>
+
+                        <ul className='list-disc text-lg pl-5 space-y-2'>
+                            <li>
+                                Developed a payment platform UI within the Q2 banking portal enabling users to securely make loan payments through REPAY services.
+                            </li>
+
+                            <li>
+                                Built Accounts and Account Details pages with ReactJS and Context API to manage global state and enable real-time transaction workflows.
+                            </li>
+
+                            <li>
+                                Integrated REPAY APIs to support ACH and card payments, including scheduled payments and dynamic convenience fee calculations.
+                            </li>
+
+                            <li>
+                                Implemented transaction history and scheduled payments modules with advanced filtering and API-driven data rendering, improving transaction visibility and user experience by approximately 65%.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div className='text-2xl font-semibold mb-2 text-white'>
+                            Capex Tracker System
+                        </div>
+
+                        <ul className='list-disc text-lg pl-5 space-y-2'>
+                            <li>
+                                Developed a CAPEX tracking system enabling employees to log working hours against assigned projects and generate operational reports.
+                            </li>
+
+                            <li>
+                                Built admin dashboards to monitor user submissions, manage project lists, and track compliance across teams, improving administrative reporting efficiency by nearly 75%.
+                            </li>
+
+                            <li>
+                                Implemented push notifications using Web Push API and automated monthly reminders using AWS EventBridge scheduled Lambda jobs, reducing missed CAPEX submissions by around 80%.
+                            </li>
+
+                            <li>
+                                Managed deployments using AWS Amplify and automated UI/API testing using Cypress to ensure application stability.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            {/* </div> */}
         </>
     )
 }
